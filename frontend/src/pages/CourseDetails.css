@@ -1,0 +1,55 @@
+/* Container for the CourseDetails page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the course title */
+  .container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Styling for course details section */
+  .course-details {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for paragraphs in the details section */
+  .course-details p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Styling for the strong tag within the details section */
+  .course-details p strong {
+    color: #222;
+  }
+  
+  /* Button styling (if you add buttons in the details page) */
+  .course-details button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-details button:hover {
+    background-color: #0056b3;
+  }
+  
